@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://img.freepik.com/premium-vector/blank-white-worksheet-exercise-book-home-school-back-school-vector-design_116849-231.jpg?w=360);
+}
+h1{
+color:black;
+font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    position: absolute;
+    margin-left: 300px;
+    height: 470px;
+    width: 750px;
+    margin-top: 100px;
+    border-style: solid;
+    border-color: grey;
+    background-color: skyblue;
+}
+#output{
+    position: relative;
+    margin-top: 10px;
+    height: 70px;
+    width: 500px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 200px;
+    
+}
+#clear{
+    background-color: red;
+    grid-column: 1/3;
+}
+#c{
+    background-color: grey;
+}
+#res{
+    background-color: green;
+    grid-column: 3/5;
+
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+    height: 250px;
+    width: 750px;
+}
+
+button{
+    margin: 5px;
+    border-radius: 10%;
+}
